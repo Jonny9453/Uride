@@ -28,7 +28,7 @@ import { useEffect, useState } from "react";
                       <li><a href="#about">About</a></li>
                       <li><a href="#services">Services</a></li>
                       <li><a href="#contact">Contact</a></li>
-                      <li><Link href="/account"><Image src={userData.picture} alt="profile_picture" width={30} height={30}/></Link></li>
+                      {userData.picture?<li><Link href="/account"><Image src={userData.picture} alt="profile_picture" width={30} height={30}/></Link></li>:null}
                   </ul>
                 </div>
                 

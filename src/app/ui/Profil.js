@@ -31,7 +31,7 @@ export  function ProfileClient({ onUpdateUserData }) {
     user && (
       <div>
         
-        <h2 className='profileName'>Hi, {user.name}</h2>
+        <h2 className='profileName'>Hi, {user.name? user.name :null}</h2>
         
       </div>
     )
