@@ -50,7 +50,7 @@ import { useEffect, useState } from "react";
               <Image src="/img/mainimage.webp" alt="scooter-Rider" width={800} height={600}/>
             </div>
            
-          </section>
+          </section> 
           
         </main>
     
