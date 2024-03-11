@@ -1,0 +1,34 @@
+.driverBox{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.driver{
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    gap:2rem;
+    align-items: center;
+    color: black;
+    padding-left: 1rem;
+}
+
+.search{
+    color: white;
+    
+}
+
+.driver> img{
+    border-radius: 50%;
+}
+.phone{
+    padding-right:1rem ;
+    color: green;
+}
+
+.timer{
+    text-align: center;
+}

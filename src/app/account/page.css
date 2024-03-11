@@ -1,0 +1,15 @@
+.help-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.help-container> div{
+    padding: 4rem;
+    background-color: rgba(209, 203, 203, 0.281);
+    border-radius: 2rem;
+}
+
+.Icon{
+    font-size: 5rem;
+}
