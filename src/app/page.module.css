@@ -25,11 +25,16 @@
   
 }
 
+.navigationLink> li:hover{
+  text-decoration: underline solid #EBB883 2px ;
+}
+
 .navigationLink >li > a{
   text-decoration: none;
   color: black;
 
 }
+
 
 .logo{
   
@@ -71,6 +76,10 @@
   border-radius: 1rem;
 }
 
+.signIn:hover{
+  scale: 1.1;
+}
+
 .signOut{
   font-size: 2rem;
   text-decoration: none;
@@ -78,6 +87,11 @@
   background-color: #EBB883;
   color: white;
   border-radius: 1rem;
+  
+}
+
+.signOut:hover{
+  scale: 1.1;
 }
 
 .image{
