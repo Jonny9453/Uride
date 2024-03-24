@@ -104,6 +104,8 @@ input{
     main{
         flex-wrap: wrap-reverse;
         padding: 0rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     #search{
