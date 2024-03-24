@@ -86,7 +86,7 @@ export default withPageAuthRequired( function Page() {
           </section>
             
 
-            <div  style={{height:"100vh", width:"100%", borderLeft:"2rem solid grey",borderRight:"2rem solid grey", borderRadius:"2rem"}}>
+            <div  id="map" style={{height:"100vh", width:"100%", borderLeft:"2rem solid grey",borderRight:"2rem solid grey", borderRadius:"2rem"}}>
               <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
                 <Map 
                   id='map'

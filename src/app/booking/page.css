@@ -100,6 +100,8 @@ input{
     gap:2rem
 }
 
+
+
 @media(max-width:500px){
     main{
         flex-wrap: wrap-reverse;
@@ -113,7 +115,7 @@ input{
         z-index: 1;
     }
     #search >.searchBox{
-        background-color: #00000026;
+        background-color: white;
         padding:2rem;
     }
 
@@ -136,5 +138,9 @@ input{
 
     .detailCharge{
         width: 95.5%;
+    }
+
+    #map{
+        border: none !important;
     }
 }
