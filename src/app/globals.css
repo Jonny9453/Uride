@@ -43,3 +43,12 @@ h1> span{
     font-size: 4rem;
     color: black;
 }
+
+@media (max-width:500px) {
+    h1{
+        font-size: 3rem;
+    }
+    .profileName{
+        font-size: 3rem;
+    }
+}

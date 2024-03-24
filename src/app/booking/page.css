@@ -99,3 +99,40 @@ input{
     display: flex;
     gap:2rem
 }
+
+@media(max-width:500px){
+    main{
+        flex-wrap: wrap-reverse;
+        padding: 0rem;
+    }
+
+    #search{
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+    #search >.searchBox{
+        background-color: #00000026;
+    }
+
+    .search-container{
+        justify-content: center;
+        margin: 0rem 2rem;
+    }
+
+    .options{
+        text-align: center;
+    }
+
+    .vehicle-options{
+        justify-content: center;
+    }
+
+    .historyBox{
+        display: none;
+    }
+
+    .detailCharge{
+        width: 95.5%;
+    }
+}

@@ -48,7 +48,7 @@ export default withPageAuthRequired( function Page() {
     <>
          <main>
           <section id='search'>
-            <div>
+            <div className='searchBox'>
               <div className="search-container">
                   <input type="text" id="location" placeholder="Enter your location"/>
                   <button id="search-btn">Search</button>
@@ -68,7 +68,7 @@ export default withPageAuthRequired( function Page() {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="historyBox">
               <h2>Recent</h2>
               <div className='history'>
               
